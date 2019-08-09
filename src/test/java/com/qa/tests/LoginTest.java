@@ -49,7 +49,7 @@ public class LoginTest extends BaseClass{
     	Thread.sleep(2000);
     	
     	try 
-    	{
+    	{ 
     	if(prop.getProperty("emailId").isEmpty() && prop.getProperty("password").isEmpty() )	{
     		System.out.println("Please Enter email id && password");
     	}
